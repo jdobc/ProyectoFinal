@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac800d0a75f4b54cbf3e89031dc09d1, type: 3}
+  m_Name: Pregunta1
+  m_EditorClassIdentifier: 
+  objeto:
+  - {fileID: 2134247758839201333, guid: 984107d2cd59fd44aa11feacf3addfe0, type: 3}
+  - {fileID: 6298670947598803536, guid: d8496f4d325bc0e4cbb1d6c6e14153ac, type: 3}
+  - {fileID: 1982312722573663744, guid: 7004cbf05feee444591601b0a746bc73, type: 3}
+  - {fileID: 5883499967935269269, guid: bc67ef746ef1680499732fcda5e232a3, type: 3}
+  - {fileID: 8223614236739142000, guid: 5671ed3cd82c97a41abaefdd81116646, type: 3}
+  - {fileID: 4876298704970810828, guid: 14b3c353214f3874c8b5d48f5c03bbef, type: 3}
+  - {fileID: 6451062383324279603, guid: bf843cd55e6984b428539813bf5616f9, type: 3}
+  - {fileID: 5702240314919402451, guid: 1a5f14816992d4340a717081bacc933e, type: 3}
+  - {fileID: 4609182399223070854, guid: 25211ee05162d8d4e90db60d3d280611, type: 3}
+  - {fileID: 3700587799472220897, guid: eb84a129523616a41abb35abf2f4a5df, type: 3}
+  preguntas:
+  - 'El color de los objetos '
+  - 'El color de los objetos '
+  - 'Estos objetos tienen el mismo '
+  - 'El objeto del color de la derecha es igual que el de la '
+  - 'Los colores de los objetos se '
+  - ' de los objetos es diferente'
+  - es el color de los objetos
+  - 'Hay diferenicia en los colores de '
+  - 'El color de los objetos '
+  - 'El color de los objetos '
+  cambiarcolor:
+  - cambia
+  - cambia
+  - color
+  - izquierda
+  - mantiene
+  - 'El color '
+  - 'Azul '
+  - ambos
+  - cambia
+  - cambia
+  color:
+  - {r: 0, g: 0.115113094, b: 0.9056604, a: 0}
+  - {r: 0.9433962, g: 0, b: 0.121883176, a: 0}
+  - {r: 0.30569845, g: 0.90588236, b: 0, a: 0}
+  - {r: 0, g: 0.754717, b: 0.6673464, a: 0}
+  - {r: 1, g: 0, b: 0.5836086, a: 0}
+  - {r: 0.79107636, g: 0.90588236, b: 0, a: 0}
+  - {r: 0, g: 0.4339623, b: 0.11288347, a: 0}
+  - {r: 0.012424173, g: 0, b: 0.066037714, a: 0}
+  - {r: 0.90588236, g: 0.4595428, b: 0, a: 0}
+  - {r: 0.1792453, g: 0, b: 0.10189438, a: 0}
+  respuesta:
+  - Si
+  - No
+  - Si
+  - Si
+  - No
+  - Si
+  - No
+  - Si
+  - No
+  - Si
