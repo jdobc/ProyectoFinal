@@ -1250,7 +1250,7 @@ GameObject:
   - component: {fileID: 1328536701}
   - component: {fileID: 1328536700}
   m_Layer: 5
-  m_Name: Text
+  m_Name: No
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1595,7 +1595,7 @@ GameObject:
   - component: {fileID: 1845578157}
   - component: {fileID: 1845578156}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Si
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1944,7 +1944,7 @@ GameObject:
   - component: {fileID: 2069147845}
   - component: {fileID: 2069147844}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Pregunta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

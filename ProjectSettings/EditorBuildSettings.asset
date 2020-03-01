@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/minijuego.unity
     guid: 51146d4b8b13a2247950b13762d8dbe9
+  - enabled: 1
+    path: Assets/Scenes/ExplosionRoom.unity
+    guid: 9b95eb48325ca8c43aeed3e474cf8221
   m_configObjects: {}

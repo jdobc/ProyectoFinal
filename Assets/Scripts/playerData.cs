@@ -19,9 +19,9 @@ private GameObject clone1,clone2,clone3,clone4,clone5,clone6,clone7,clone8,clone
    void Start()
    {
       ncolor = minijuego.color[0];
-      //cambia.text = minijuego.cambiarcolor[0];
-      //cambia.color = ncolor;
-      pregunta.text = minijuego.preguntas[0]+minijuego.cambiarcolor[0];
+      cambia.text = minijuego.cambiarcolor[0];  
+      cambia.color = ncolor;
+      pregunta.text = minijuego.preguntas[0]+cambia.text;
       //minijuego.objeto[1].GetComponent<Renderer>().material.color = ncolor;
       clone1 = Instantiate(minijuego.objeto[0], new Vector3(30.0f,-5.0f,-5.0f), Quaternion.Euler(-10f, 0f, 0f));
       clone2 = Instantiate(minijuego.objeto[1], new Vector3(-10.0f,-5.0f,-5.0f),Quaternion.identity);
@@ -42,7 +42,7 @@ private GameObject clone1,clone2,clone3,clone4,clone5,clone6,clone7,clone8,clone
                  ncolor = minijuego.color[1];
       
       pregunta.text = minijuego.preguntas[1]+minijuego.cambiarcolor[1];
-      //minijuego.objeto[1].GetComponent<Renderer>().material.color = ncolor;
+      minijuego.objeto[1].GetComponent<Renderer>().material.color = ncolor;
       clone3 = Instantiate(minijuego.objeto[2], new Vector3(30.0f,-5.0f,-5.0f), Quaternion.Euler(-10f, 0f, 0f));
       clone4 = Instantiate(minijuego.objeto[3], new Vector3(-10.0f,-5.0f,-5.0f),Quaternion.identity);
       npregunta++;

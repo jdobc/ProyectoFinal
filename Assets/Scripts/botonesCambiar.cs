@@ -20,4 +20,8 @@ public class botonesCambiar : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+      public void GotoExplosionScene()
+    {
+        SceneManager.LoadScene(5);
+    }
 }
